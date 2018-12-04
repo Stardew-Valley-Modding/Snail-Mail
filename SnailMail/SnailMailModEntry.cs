@@ -106,8 +106,6 @@ namespace SnailMail {
 
             Farmer player = Game1.player;
 
-            letterBills.DeliverMail(player, immediately: true);
-
             if (player != null) {
 
                 String season = Game1.currentSeason;
